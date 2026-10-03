@@ -23,7 +23,7 @@ export default function ResortCard({
       </i>
       <p className={stars(rating)}>{rating}★</p>
       <i>
-        <p className="grey">{price}</p>
+        <p className="grey">${price}</p>
       </i>
     </div>
   );
